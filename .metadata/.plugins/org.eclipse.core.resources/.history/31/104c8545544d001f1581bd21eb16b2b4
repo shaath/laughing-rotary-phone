@@ -1,0 +1,13 @@
+package pom;
+
+import commonUtils.GenericMethods;
+
+public class LoginTc extends GenericMethods{
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

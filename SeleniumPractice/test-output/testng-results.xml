@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Grid" duration-ms="57950" started-at="2024-07-30T03:09:18Z" finished-at="2024-07-30T03:10:16Z">
+    <groups>
+    </groups>
+    <test name="OnChrome" duration-ms="37821" started-at="2024-07-30T03:09:18Z" finished-at="2024-07-30T03:09:56Z">
+      <class name="grid.GridEg">
+        <test-method status="PASS" signature="grid(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg@6d4b1c02]" name="grid" duration-ms="37650" started-at="2024-07-30T03:09:18Z" finished-at="2024-07-30T03:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.GridEg -->
+    </test> <!-- OnChrome -->
+    <test name="OnFirefox" duration-ms="57949" started-at="2024-07-30T03:09:18Z" finished-at="2024-07-30T03:10:16Z">
+      <class name="grid.GridEg">
+        <test-method status="PASS" signature="grid(java.lang.String, java.lang.String)[pri:0, instance:grid.GridEg@18be83e4]" name="grid" duration-ms="57791" started-at="2024-07-30T03:09:18Z" finished-at="2024-07-30T03:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grid -->
+      </class> <!-- grid.GridEg -->
+    </test> <!-- OnFirefox -->
+  </suite> <!-- Grid -->
+</testng-results>

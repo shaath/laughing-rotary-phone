@@ -1,0 +1,19 @@
+package pom;
+
+import org.openqa.selenium.support.PageFactory;
+
+import commonUtils.GenericMethods;
+
+public class LoginTc extends GenericMethods{
+
+	public static void main(String[] args) {
+		
+		brLaunch("Firefox");
+		
+		LoginPage lp = PageFactory.initElements(driver, LoginPage.class);
+		
+		driver.get(url);
+
+	}
+
+}
